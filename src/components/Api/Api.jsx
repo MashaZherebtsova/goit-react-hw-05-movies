@@ -29,7 +29,7 @@ export const getMovieCredits = async id => {
       return response.data;
 };
 
-export const getRevievs = async id => {
+export const getReviews = async id => {
     const response = await axios.get(
         `movie/${id}/reviews?api_key=${API_KEY}&language=en-US&page=1`
       );

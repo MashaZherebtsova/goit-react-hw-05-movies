@@ -1,4 +1,4 @@
-import { MovieList, MovieLink } from './Movies.styled';
+import { MovieList, MovieLink } from '../Home/Home.styled';
 import { useState, useEffect } from 'react';
 import { searchMovies } from './../Api/Api';
 import { useSearchParams, useLocation } from 'react-router-dom';
